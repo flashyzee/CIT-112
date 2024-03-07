@@ -1,7 +1,7 @@
 """
 Author: Zion Adedipe
 Date: 3/7/2024
-Purpose: This program ask the user for two numbers, calculates their sum, differences, product, and quotient, it then displays the results.
+Purpose: This program asks the user for two numbers, calculates their sum, differences, product, and quotient, it then displays the results.
 """
 #--------------------------------
 
@@ -15,6 +15,7 @@ sub = num1 - num2
 div = int(num1 / num2)
 square1 = num1 ** 2
 square2 = num2 ** 2
+
 print(f"Addition result: {add}")
 print(f"Multiplication result: {mul}")
 print(f"Subtraction result: {sub}")
